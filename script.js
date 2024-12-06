@@ -9,8 +9,11 @@ document.getElementById('injection-form').addEventListener('submit', function(ev
         return;
     }
 
+    // Convertir le pourcentage en coefficient
+    const injectionCoefficient = injectionPercentage / 100;
+
     // Calcul de la valeur de débit à 20mA
-    const maxInjectionFlowRate = maxFlowRate / injectionPercentage;
+    const maxInjectionFlowRate = maxFlowRate / injectionCoefficient;
 
     // Afficher le résultat
     document.getElementById('result').innerText = 
