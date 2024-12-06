@@ -23,7 +23,7 @@ document.getElementById('injection-form').addEventListener('submit', function(ev
 
     // Afficher le résultat
     document.getElementById('result').innerHTML = `
-        <p>Configurez le paramètre 63 rate-max (débit max.) sur l'appareil avec la valeur suivante (sélectionner suivant l'unité de mesure paramétrée m3/h, l/min etc..) :</p>
+        <p>Configurez le <b>paramètre 63 rate-max (débit max.)</b> sur l'appareil avec la valeur suivante (sélectionner suivant l'unité de mesure paramétrée m3/h, l/min etc..) :</p>
         <ul>
             <li><strong>${formattedFlowLh}</strong> L/h</li>
             <li><strong>${flowM3h}</strong> m³/h</li>
