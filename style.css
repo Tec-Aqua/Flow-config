@@ -56,7 +56,24 @@ button:hover {
 
 .result {
     margin-top: 20px;
-    font-size: 1.2em;
-    color: #28a745;
-    font-weight: bold;
+    font-size: 1em;
+    color: #333;
+}
+
+.result ul {
+    list-style: none; /* Supprime les points */
+    padding: 0;
+}
+
+.result ul li {
+    margin: 5px 0; /* Espace entre les lignes */
+    font-size: 1.1em; /* Taille légèrement plus grande */
+    color: #0056b3; /* Couleur élégante (bleu) */
+    font-weight: bold; /* Texte en gras */
+}
+
+.result ul li::before {
+    content: "→ "; /* Remplace les points par une flèche */
+    color: #28a745; /* Flèche verte */
+    font-weight: normal; /* Pas de gras pour la flèche */
 }
