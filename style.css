@@ -77,3 +77,22 @@ button:hover {
     color: #28a745; /* Flèche verte */
     font-weight: normal; /* Pas de gras pour la flèche */
 }
+
+.info-icon {
+    display: inline-block;
+    font-size: 1em;
+    margin-left: 5px;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.info-icon:hover {
+    color: #0056b3;
+}
+
+.info-icon:focus {
+    outline: none;
+    color: #0056b3;
+}
+
