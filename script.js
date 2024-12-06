@@ -9,7 +9,7 @@ document.getElementById('injection-form').addEventListener('submit', function(ev
         return;
     }
 
-    // Convertir le pourcentage en coefficient
+    // Conversion du pourcentage en coefficient (fraction de 1)
     const injectionCoefficient = injectionPercentage / 100;
 
     // Calcul de la valeur de débit à 20mA
