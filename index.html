@@ -10,7 +10,10 @@
     <div class="container">
         <h1>Calculateur d'Injection Proportionnelle</h1>
         <form id="injection-form">
-            <label for="maxFlowRate">Débit maximum de la pompe doseuse (L/h) :</label>
+            <label for="maxFlowRate">
+                <span class="info-icon" tabindex="0" title="Prendre en compte le réglage du bornier sur la pompe doseuse">ℹ️</span>
+		Débit maximum de la pompe doseuse (L/h) :
+            </label>
             <input type="number" id="maxFlowRate" placeholder="Ex: 400" required>
 
             <label for="injectionPercentage">% d'injection souhaité :</label>
